@@ -72,10 +72,10 @@
                 //noinspection JSUnresolvedFunction
                 $mdThemingProvider
                         .theme('default')
-                        .primaryPalette(search.primary || 'teal')
-                        .accentPalette('accent')
-                        .warnPalette(search.warn || 'amber')
-                        .foregroundPalette[3] = 'rgba(0, 0, 0, 0.4)';
+                        .primaryPalette(search.primary || 'rgba(0.84, 0.72, 0.68, 1.0')
+                        .accentPalette(search.accent ||'rgba(0.7, 0.49, 0.45, 1.0')
+                        .warnPalette(search.warn || 'rgba(0.6, 0.29, 0.26, 1.0)')
+                        .foregroundPalette[3] = 'rgba(0.1, 0.1, 0.1, 0.4)';
 
                 if ($window.location.hostname !== 'localhost') {
                     $logProvider.debugEnabled(false);
