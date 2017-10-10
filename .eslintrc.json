@@ -5,6 +5,7 @@
       2,
       "always"
     ],
+    "no-useless-escape": "off",
     "indent": [
       2,
       4,
